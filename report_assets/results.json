@@ -1,0 +1,234 @@
+{
+  "shape_reviews": [
+    14337,
+    4
+  ],
+  "shape_products": [
+    10,
+    6
+  ],
+  "merged_shape": [
+    14337,
+    16
+  ],
+  "satisfied_pct": 65.5785729232057,
+  "sentiment_counts": {
+    "Positive": 9404,
+    "Negative": 3477,
+    "Neutral": 1456
+  },
+  "complaint_counts": {
+    "Sound": 5094,
+    "Other": 3459,
+    "Battery": 2189,
+    "Comfort": 1287,
+    "Connectivity": 1065,
+    "Durability": 508,
+    "Price": 471,
+    "Mic": 264
+  },
+  "category_satisfaction": {
+    "Mic": {
+      "NotSatisfied%": 60.23,
+      "Satisfied%": 39.77
+    },
+    "Connectivity": {
+      "NotSatisfied%": 49.3,
+      "Satisfied%": 50.7
+    },
+    "Comfort": {
+      "NotSatisfied%": 48.56,
+      "Satisfied%": 51.44
+    },
+    "Durability": {
+      "NotSatisfied%": 41.14,
+      "Satisfied%": 58.86
+    },
+    "Battery": {
+      "NotSatisfied%": 34.9,
+      "Satisfied%": 65.1
+    },
+    "Other": {
+      "NotSatisfied%": 31.43,
+      "Satisfied%": 68.57
+    },
+    "Sound": {
+      "NotSatisfied%": 28.66,
+      "Satisfied%": 71.34
+    },
+    "Price": {
+      "NotSatisfied%": 22.51,
+      "Satisfied%": 77.49
+    }
+  },
+  "product_summary": [
+    {
+      "Product": "Sennheiser CX 6.0BT",
+      "review_count": 5000,
+      "avg_rating": 4.05,
+      "price": 6499,
+      "mrp": 7490
+    },
+    {
+      "Product": "boAt Rockerz 255",
+      "review_count": 5000,
+      "avg_rating": 3.63,
+      "price": 1399,
+      "mrp": 2990
+    },
+    {
+      "Product": "JBL T110BT",
+      "review_count": 1922,
+      "avg_rating": 3.05,
+      "price": 2000,
+      "mrp": 2259
+    },
+    {
+      "Product": "JBL T205BT",
+      "review_count": 1411,
+      "avg_rating": 3.37,
+      "price": 1999,
+      "mrp": 2999
+    },
+    {
+      "Product": "PTron Intunes",
+      "review_count": 254,
+      "avg_rating": 3.89,
+      "price": 749,
+      "mrp": 2000
+    },
+    {
+      "Product": "Skullcandy S2PGHW-174",
+      "review_count": 239,
+      "avg_rating": 3.23,
+      "price": 3699,
+      "mrp": 5299
+    },
+    {
+      "Product": "Samsung EO-BG950CBEIN",
+      "review_count": 224,
+      "avg_rating": 3.57,
+      "price": 3190,
+      "mrp": 3799
+    },
+    {
+      "Product": "Flybot Wave",
+      "review_count": 182,
+      "avg_rating": 3.85,
+      "price": 1099,
+      "mrp": 3999
+    },
+    {
+      "Product": "Flybot Boom",
+      "review_count": 82,
+      "avg_rating": 4.24,
+      "price": 1099,
+      "mrp": 3999
+    },
+    {
+      "Product": "Flybot Beat",
+      "review_count": 23,
+      "avg_rating": 4.39,
+      "price": 2999,
+      "mrp": 5999
+    }
+  ],
+  "corr_matrix": {
+    "ReviewStar": {
+      "ReviewStar": 1.0,
+      "DiscountRate": -0.024,
+      "ReviewLength": -0.058,
+      "SentimentScore": 0.65,
+      "Satisfied": 0.904
+    },
+    "DiscountRate": {
+      "ReviewStar": -0.024,
+      "DiscountRate": 1.0,
+      "ReviewLength": 0.062,
+      "SentimentScore": -0.017,
+      "Satisfied": -0.019
+    },
+    "ReviewLength": {
+      "ReviewStar": -0.058,
+      "DiscountRate": 0.062,
+      "ReviewLength": 1.0,
+      "SentimentScore": 0.096,
+      "Satisfied": -0.061
+    },
+    "SentimentScore": {
+      "ReviewStar": 0.65,
+      "DiscountRate": -0.017,
+      "ReviewLength": 0.096,
+      "SentimentScore": 1.0,
+      "Satisfied": 0.622
+    },
+    "Satisfied": {
+      "ReviewStar": 0.904,
+      "DiscountRate": -0.019,
+      "ReviewLength": -0.061,
+      "SentimentScore": 0.622,
+      "Satisfied": 1.0
+    }
+  },
+  "accuracy": 0.7981171548117155,
+  "confusion_matrix": [
+    [
+      685,
+      302
+    ],
+    [
+      277,
+      1604
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.7120582120582121,
+      "recall": 0.6940222897669707,
+      "f1-score": 0.7029245767060031,
+      "support": 987.0
+    },
+    "1": {
+      "precision": 0.8415529905561385,
+      "recall": 0.8527379053694844,
+      "f1-score": 0.8471085291787694,
+      "support": 1881.0
+    },
+    "accuracy": 0.7981171548117155,
+    "macro avg": {
+      "precision": 0.7768056013071754,
+      "recall": 0.7733800975682275,
+      "f1-score": 0.7750165529423862,
+      "support": 2868.0
+    },
+    "weighted avg": {
+      "precision": 0.7969883649015175,
+      "recall": 0.7981171548117155,
+      "f1-score": 0.7974887380035183,
+      "support": 2868.0
+    }
+  },
+  "shap_importance_top10": {
+    "num__SentimentScore": 0.2767,
+    "num__ReviewLength": 0.0809,
+    "num__MRP": 0.0225,
+    "num__Price": 0.0174,
+    "cat__ComplaintCategory_Sound": 0.014,
+    "num__DiscountRate": 0.0133,
+    "cat__Product_Sennheiser CX 6.0BT": 0.012,
+    "cat__ComplaintCategory_Other": 0.011,
+    "cat__Product_JBL T110BT": 0.0107,
+    "cat__ComplaintCategory_Comfort": 0.0084
+  },
+  "mic_reviews": 264,
+  "mic_not_satisfied_rate": 0.6022727272727273,
+  "average_price": 3369.084815512311,
+  "current_sales": 3000.0,
+  "improved_sales": 3700.0,
+  "additional_sales": 700.0,
+  "profit_per_unit": 842.2712038780777,
+  "additional_profit": 589589.8427146544,
+  "development_cost": 100000,
+  "net_profit": 489589.8427146544,
+  "roi_pct": 489.58984271465437
+}
