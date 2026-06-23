@@ -139,7 +139,14 @@ run = sub_p.add_run("Yönetici Özeti Raporu — YBS Python ile Veri Bilimi Dön
 run.font.size = Pt(11.5)
 run.italic = True
 run.font.color.rgb = ORANGE
-sub_p.paragraph_format.space_after = Pt(14)
+sub_p.paragraph_format.space_after = Pt(6)
+
+repo_p = doc.add_paragraph()
+repo_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+run = repo_p.add_run("GitHub Deposu: https://github.com/elifaydnlll/amazon-kablosuz-kulaklik-urunlerinde-aciklanabilir-urun-analitigi/tree/main")
+run.font.size = Pt(9.5)
+run.font.color.rgb = GRAY
+repo_p.paragraph_format.space_after = Pt(14)
 
 # ===================== 1. PROBLEM TANIMI =====================
 add_heading("1. Problem Tanımı ve Proje Amacı")
