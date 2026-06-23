@@ -281,5 +281,9 @@ add_bullet(f"Kurulan Random Forest modeli %{R['accuracy']*100:.0f} doğrulukla m
 add_bullet(f"Mikrofon iyileştirmesine yapılacak yatırımın yaklaşık %{R['roi_pct']:.0f} ROI ile geri dönmesi beklenmektedir; bu nedenle ürün yol haritasında önceliklendirilmesi önerilir.")
 add_bullet("Gelecek çalışmalarda, ek metin madenciliği teknikleri (konu modelleme, BERT tabanlı duygu analizi) ile ComplaintCategory sınıflandırmasının doğruluğu artırılabilir.")
 
+add_para("")
+add_para("Proje GitHub Deposu:", bold=True, size=11, color=NAVY)
+add_para("https://github.com/elifaydnlll/amazon-kablosuz-kulaklik-urunlerinde-aciklanabilir-urun-analitigi/tree/main", size=10, italic=True)
+
 doc.save("Yonetici_Ozeti_Raporu.docx")
 print("Rapor oluşturuldu: Yonetici_Ozeti_Raporu.docx")
